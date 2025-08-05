@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "vercel-build": "echo 'Vercel build complete'"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
