@@ -17,6 +17,11 @@ dbConfig();
 // Routes
 app.use('/api', itemRoutes); // <-- FIXED
 
+//  dummy file rourre for testing
+app.get('/', (req, res) => {
+    res.send('Welcome to the Item API');    
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
