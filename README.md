@@ -7,7 +7,7 @@ This is a simple CRUD application that allows users to create, read, update, and
 
 1. **Clone the repository**
    ```
-   git clone <repository-url> d
+   git clone <repository-url> dt
    cd dummy-crud-app/backendxcv
    ```
 
